@@ -1,18 +1,18 @@
 import React from 'react';
 import './portfolioStyle.css';
 import { Tabs } from 'antd';
-import Tab1 from '/src/Page/Portfolio/tabs/Tab1';
-import Tab2 from '/src/Page/Portfolio/tabs/Tab2';
-import Tab3 from '/src/Page/Portfolio/tabs/Tab3';
-import Tab4 from '/src/Page/Portfolio/tabs/Tab4';
-import Tab5 from '/src/Page/Portfolio/tabs/tab5';
-import Tab6 from '/src/Page/Portfolio/tabs/Tab6';
-import Tab7 from '/src/Page/Portfolio/tabs/Tab7';
-import Tab8 from '/src/Page/Portfolio/tabs/Tab8';
-import Tab9 from '/src/Page/Portfolio/tabs/Tab9';
-import Tab10 from '/src/Page/Portfolio/tabs/Tab10';
-import Tab11 from '/src/Page/Portfolio/tabs/Tab11';
-import Tab12 from '/src/Page/Portfolio/tabs/Tab12';
+import Tab1 from './tabs/tab1';
+import Tab2 from './tabs/Tab2';
+import Tab3 from './tabs/Tab3';
+import Tab4 from './tabs/Tab4';
+import Tab5 from './tabs/tab5';
+import Tab6 from './tabs/Tab6';
+import Tab7 from './tabs/Tab7';
+import Tab8 from './tabs/Tab8';
+import Tab9 from './tabs/Tab9';
+import Tab10 from './tabs/Tab10';
+import Tab11 from './tabs/Tab11';
+import Tab12 from './tabs/Tab12';
 
 const Portfolio = () => {
     const items = [
