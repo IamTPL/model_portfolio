@@ -31,7 +31,7 @@
     text-decoration: underline;
 }
 
-:where(.css-dev-only-do-not-override-1m62vyb).ant-tabs .ant-tabs-ink-bar {
+.ant-tabs .ant-tabs-ink-bar {
     background-color: transparent;
 }
 
