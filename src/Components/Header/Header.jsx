@@ -16,7 +16,7 @@ const Header = () => {
             setIsHeaderVisible(true);
         }
 
-        if (pageYOffset == 0) {
+        if (pageYOffset <= 10) {
             setIsHeaderVisible(true);
         }
 
