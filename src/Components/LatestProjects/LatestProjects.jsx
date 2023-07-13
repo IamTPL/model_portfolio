@@ -5,11 +5,17 @@ import Slider from 'react-slick';
 import { Fancybox } from '@fancyapps/ui';
 import '@fancyapps/ui/dist/fancybox/fancybox.css';
 import imgLatest1 from '../../assets/imgs/tab8/tab8.1.jpg';
+import imgLatest1cp from '../../assets/imgs/tab8/tab8.1cp.jpg';
 import imgLatest3 from '../../assets/imgs/latetest/white2.jpg';
+import imgLatest3cp from '../../assets/imgs/latetest/white2cp.jpg';
 import imgLatest4 from '../../assets/imgs/tab8/tab8.5.jpg';
+import imgLatest4cp from '../../assets/imgs/tab8/tab8.5cp.jpg';
 import imgLatest5 from '../../assets/imgs/tab8/tab8.8.jpg';
+import imgLatest5cp from '../../assets/imgs/tab8/tab8.8cp.jpg';
 import imgLatest6 from '../../assets/imgs/latetest/gray1.png';
+import imgLatest6cp from '../../assets/imgs/latetest/gray1cp.jpg';
 import imgLatest7 from '../../assets/imgs/latetest/gray2.png';
+import imgLatest7cp from '../../assets/imgs/latetest/gray2cp.jpg';
 
 const LatestProjects = () => {
     const PrevArrow = (props) => {
@@ -111,7 +117,7 @@ const LatestProjects = () => {
                             <div style={itemStyle}>
                                 <a href={imgLatest1} data-fancybox="projects">
                                     <img
-                                        src={imgLatest1}
+                                        src={imgLatest1cp}
                                         alt=""
                                         className="w-full h-[350px] object-cover"
                                         onClick={() => {
@@ -129,7 +135,7 @@ const LatestProjects = () => {
                             <div style={itemStyle}>
                                 <a href={imgLatest7} data-fancybox="projects">
                                     <img
-                                        src={imgLatest7}
+                                        src={imgLatest7cp}
                                         alt=""
                                         className="w-full h-[350px] object-cover"
                                         onClick={() => {
@@ -147,7 +153,7 @@ const LatestProjects = () => {
                             <div style={itemStyle}>
                                 <a href={imgLatest4} data-fancybox="projects">
                                     <img
-                                        src={imgLatest4}
+                                        src={imgLatest4cp}
                                         alt=""
                                         className="w-full h-[350px] object-cover"
                                         onClick={() => {
@@ -165,7 +171,7 @@ const LatestProjects = () => {
                             <div style={itemStyle}>
                                 <a href={imgLatest3} data-fancybox="projects">
                                     <img
-                                        src={imgLatest3}
+                                        src={imgLatest3cp}
                                         alt=""
                                         className="w-full h-[350px] object-cover"
                                         onClick={() => {
@@ -183,7 +189,7 @@ const LatestProjects = () => {
                             <div style={itemStyle}>
                                 <a href={imgLatest5} data-fancybox="projects">
                                     <img
-                                        src={imgLatest5}
+                                        src={imgLatest5cp}
                                         alt=""
                                         className="w-full h-[350px] object-cover"
                                         onClick={() => {
@@ -201,7 +207,7 @@ const LatestProjects = () => {
                             <div style={itemStyle}>
                                 <a href={imgLatest6} data-fancybox="projects">
                                     <img
-                                        src={imgLatest6}
+                                        src={imgLatest6cp}
                                         alt=""
                                         className="w-full h-[350px] object-cover"
                                         onClick={() => {

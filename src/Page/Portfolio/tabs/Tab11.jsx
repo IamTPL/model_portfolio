@@ -1,12 +1,19 @@
 import React from 'react';
 import { Fancybox } from '@fancyapps/ui';
 import img_1 from '../../../assets/imgs/tab11/tab11.1.JPG';
+import img_1cp from '../../../assets/imgs/tab11/tab11.1cp.JPG';
 import img_2 from '../../../assets/imgs/tab11/tab11.2.JPG';
+import img_2cp from '../../../assets/imgs/tab11/tab11.2cp.JPG';
 import img_3 from '../../../assets/imgs/tab11/tab11.3.JPG';
+import img_3cp from '../../../assets/imgs/tab11/tab11.3cp.JPG';
 import img_4 from '../../../assets/imgs/tab11/tab11.4.JPG';
+import img_4cp from '../../../assets/imgs/tab11/tab11.4cp.JPG';
 import img_5 from '../../../assets/imgs/tab11/tab11.5.JPG';
+import img_5cp from '../../../assets/imgs/tab11/tab11.5cp.JPG';
 import img_6 from '../../../assets/imgs/tab11/tab11.6.JPG';
+import img_6cp from '../../../assets/imgs/tab11/tab11.6cp.JPG';
 import img_7 from '../../../assets/imgs/tab11/tab11.7.JPG';
+import img_7cp from '../../../assets/imgs/tab11/tab11.7cp.JPG';
 
 const Tab11 = () => {
     return (
@@ -18,7 +25,7 @@ const Tab11 = () => {
                         Fancybox.bind('[data-fancybox="tab11"]', {});
                     }}
                 >
-                    <img className="image_popup" src={img_1} alt="" />
+                    <img className="image_popup" src={img_1cp} alt="" />
                 </div>
             </a>
 
@@ -29,7 +36,7 @@ const Tab11 = () => {
                         Fancybox.bind('[data-fancybox="tab11"]', {});
                     }}
                 >
-                    <img className="image_popup" src={img_2} alt="" />
+                    <img className="image_popup" src={img_2cp} alt="" />
                 </div>
             </a>
 
@@ -40,7 +47,7 @@ const Tab11 = () => {
                         Fancybox.bind('[data-fancybox="tab11"]', {});
                     }}
                 >
-                    <img className="image_popup" src={img_3} alt="" />
+                    <img className="image_popup" src={img_3cp} alt="" />
                 </div>
             </a>
 
@@ -51,7 +58,7 @@ const Tab11 = () => {
                         Fancybox.bind('[data-fancybox="tab11"]', {});
                     }}
                 >
-                    <img className="image_popup" src={img_4} alt="" />
+                    <img className="image_popup" src={img_4cp} alt="" />
                 </div>
             </a>
 
@@ -62,7 +69,7 @@ const Tab11 = () => {
                         Fancybox.bind('[data-fancybox="tab11"]', {});
                     }}
                 >
-                    <img className="image_popup" src={img_5} alt="" />
+                    <img className="image_popup" src={img_5cp} alt="" />
                 </div>
             </a>
 
@@ -73,7 +80,7 @@ const Tab11 = () => {
                         Fancybox.bind('[data-fancybox="tab11"]', {});
                     }}
                 >
-                    <img className="image_popup" src={img_6} alt="" />
+                    <img className="image_popup" src={img_6cp} alt="" />
                 </div>
             </a>
 
@@ -84,7 +91,7 @@ const Tab11 = () => {
                         Fancybox.bind('[data-fancybox="tab11"]', {});
                     }}
                 >
-                    <img className="image_popup" src={img_7} alt="" />
+                    <img className="image_popup" src={img_7cp} alt="" />
                 </div>
             </a>
         </div>
