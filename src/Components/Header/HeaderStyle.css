@@ -1,0 +1,8 @@
+.logoHeader {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+.header .btn_portfolio {
+    color: var(--color-btn);
+    font-weight: 500;
+}

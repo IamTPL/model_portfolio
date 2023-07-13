@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    --color-bg: #efefef;
+    --color-text2: #747474;
+    --color-text3: #524a4f;
+    --color-red: #fe4748;
+    --color-btn: #cb997e;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: var(--color-bg);
+}
+
+a {
+    text-decoration: none;
+}

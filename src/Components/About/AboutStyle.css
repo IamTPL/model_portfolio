@@ -1,0 +1,38 @@
+.about .measure_item {
+    color: #b9b9b9;
+    width: 20%;
+    height: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.measure_item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #000;
+}
+
+.about .intro::before {
+    content: '';
+    width: 5px;
+    height: 100%;
+    background: rgb(203, 153, 126);
+    background: linear-gradient(
+        180deg,
+        rgba(203, 153, 126, 1) 0%,
+        rgba(255, 232, 214, 1) 100%
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .about .measure_item {
+        width: 12%;
+    }
+}
