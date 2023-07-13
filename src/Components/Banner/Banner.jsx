@@ -9,7 +9,7 @@ import { NavLink } from 'react-router-dom';
 const Banner = () => {
     return (
         <div
-            className="banner pt-24 mb-40 sm:mb-20 xxl:max-w-[1380px] xl:max-w-[1200px] lg:max-w-[980px] mx-auto"
+            className="banner pt-24 xs:pt-12 mb-40 sm:mb-20 xxl:max-w-[1380px] xl:max-w-[1200px] lg:max-w-[980px] mx-auto"
             id="banner"
         >
             <div className="flex relative">
