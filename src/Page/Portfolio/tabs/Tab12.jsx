@@ -1,8 +1,8 @@
 import React from 'react';
 import { Fancybox } from '@fancyapps/ui';
-import img_1 from '../../../assets/imgs/tab12/tab12.1.jpg';
-import img_2 from '../../../assets/imgs/tab12/tab12.2.jpg';
-import img_3 from '../../../assets/imgs/tab12/tab12.3.jpg';
+import img_1 from '../../../assets/imgs/tab12/tab12.1.JPG';
+import img_2 from '../../../assets/imgs/tab12/tab12.2.JPG';
+import img_3 from '../../../assets/imgs/tab12/tab12.3.JPG';
 import img_4 from '../../../assets/imgs/tab12/tab12.4.jpg';
 
 const Tab12 = () => {

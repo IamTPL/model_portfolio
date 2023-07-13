@@ -1,10 +1,10 @@
 import React from 'react';
 import { Fancybox } from '@fancyapps/ui';
-import img_1 from '../../../assets/imgs/tab10/tab10.1.jpg';
-import img_2 from '../../../assets/imgs/tab10/tab10.2.jpg';
-import img_3 from '../../../assets/imgs/tab10/tab10.3.jpg';
-import img_4 from '../../../assets/imgs/tab10/tab10.4.jpg';
-import img_5 from '../../../assets/imgs/tab10/tab10.5.jpg';
+import img_1 from '../../../assets/imgs/tab10/tab10.1.JPG';
+import img_2 from '../../../assets/imgs/tab10/tab10.2.JPG';
+import img_3 from '../../../assets/imgs/tab10/tab10.3.JPG';
+import img_4 from '../../../assets/imgs/tab10/tab10.4.JPG';
+import img_5 from '../../../assets/imgs/tab10/tab10.5.JPG';
 import img_6 from '../../../assets/imgs/tab10/tab10.6.PNG';
 import img_7 from '../../../assets/imgs/tab10/tab10.7.PNG';
 
