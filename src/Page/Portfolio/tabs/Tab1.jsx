@@ -19,7 +19,12 @@ const Tab1 = () => {
                         Fancybox.bind('[data-fancybox="tab1"]', {});
                     }}
                 >
-                    <img className="image_popup" src={img_1} alt="" />
+                    <img
+                        className="image_popup"
+                        src={img_1}
+                        alt=""
+                        loading="lazy"
+                    />
                 </div>
             </a>
 
