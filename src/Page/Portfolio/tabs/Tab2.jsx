@@ -1,9 +1,13 @@
 import React from 'react';
 import { Fancybox } from '@fancyapps/ui';
 import img_1 from '../../../assets/imgs/tab2/tab2.1.jpg';
+import img_1cp from '../../../assets/imgs/tab2/tab2.1cp.jpg';
 import img_2 from '../../../assets/imgs/tab2/tab2.2.jpg';
+import img_2cp from '../../../assets/imgs/tab2/tab2.2cp.jpg';
 import img_3 from '../../../assets/imgs/tab2/tab2.3.jpg';
+import img_3cp from '../../../assets/imgs/tab2/tab2.3cp.jpg';
 import img_4 from '../../../assets/imgs/tab2/tab2.4.jpg';
+import img_4cp from '../../../assets/imgs/tab2/tab2.4cp.jpg';
 
 const Tab2 = () => {
     return (
@@ -15,7 +19,7 @@ const Tab2 = () => {
                         Fancybox.bind('[data-fancybox="tab2"]', {});
                     }}
                 >
-                    <img className="image_popup" src={img_1} alt="" />
+                    <img className="image_popup" src={img_1cp} alt="" />
                 </div>
             </a>
 
@@ -26,7 +30,7 @@ const Tab2 = () => {
                         Fancybox.bind('[data-fancybox="tab2"]', {});
                     }}
                 >
-                    <img className="image_popup" src={img_2} alt="" />
+                    <img className="image_popup" src={img_2cp} alt="" />
                 </div>
             </a>
 
@@ -37,7 +41,7 @@ const Tab2 = () => {
                         Fancybox.bind('[data-fancybox="tab2"]', {});
                     }}
                 >
-                    <img className="image_popup" src={img_3} alt="" />
+                    <img className="image_popup" src={img_3cp} alt="" />
                 </div>
             </a>
 
@@ -52,7 +56,7 @@ const Tab2 = () => {
                         Fancybox.bind('[data-fancybox="tab2"]', {});
                     }}
                 >
-                    <img className="image_popup" src={img_4} alt="" />
+                    <img className="image_popup" src={img_4cp} alt="" />
                 </div>
             </a>
         </div>
