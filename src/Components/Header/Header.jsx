@@ -16,7 +16,8 @@ const Header = () => {
             setIsHeaderVisible(true);
         }
 
-        if (lastScrollTop.current > 100) {
+        if (pageYOffset == 0) {
+            setIsHeaderVisible(true);
         }
 
         lastScrollTop.current = pageYOffset;
