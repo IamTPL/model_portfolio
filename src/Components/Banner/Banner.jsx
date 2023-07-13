@@ -1,9 +1,9 @@
 import React from 'react';
 import './BannerStyte.css';
 import img1 from '../../assets/imgs/img1.1.PNG';
-import img2 from '../../assets/imgs/img2.PNG';
-import img3 from '../../assets/imgs/img3.1.png';
-import img4 from '../../assets/imgs/img4.PNG';
+import img2 from '../../assets/imgs/img2.1.png';
+import img3 from '../../assets/imgs/img3.1.jpg';
+import img4 from '../../assets/imgs/img4.jpg';
 import { NavLink } from 'react-router-dom';
 
 const Banner = () => {
@@ -68,12 +68,12 @@ const Banner = () => {
                                     <img
                                         src={img3}
                                         alt="image"
-                                        className="w-[230px] lg:w-[180px] h-[260px] lg:h-[230px] object-cover object-top"
+                                        className="w-[210px] lg:w-[180px] h-[260px] lg:h-[230px] object-cover object-top"
                                     />
                                     <img
                                         src={img4}
                                         alt="image"
-                                        className="w-[230px] lg:w-[180px]  h-[260px] lg:h-[230px] object-cover object-top"
+                                        className="w-[210px] lg:w-[180px]  h-[260px] lg:h-[230px] object-cover object-top"
                                     />
                                 </div>
                             </div>

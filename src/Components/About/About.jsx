@@ -1,10 +1,10 @@
 import React from 'react';
 import './AboutStyle.css';
-import img5 from '../../assets/imgs/img5.PNG';
+import img5 from '../../assets/imgs/tab11/tab11.5.JPG';
 import img3 from '../../assets/imgs/img3.PNG';
 import img6 from '../../assets/imgs/img6.PNG';
-import img7 from '../../assets/imgs/img7.PNG';
-import img8 from '../../assets/imgs/img8.PNG';
+import img7 from '../../assets/imgs/img7.jpg';
+import img8 from '../../assets/imgs/about4.jpg';
 
 const About = () => {
     return (
@@ -16,7 +16,7 @@ const About = () => {
                 <img
                     src={img5}
                     alt="image"
-                    className="sm:mx-auto h-[700px] lg:h-[550px] md:h-[480px] w-full md:w-[350px] object-cover object-bottom"
+                    className="sm:mx-auto h-[700px] lg:h-[550px] md:h-[480px] w-full md:w-[350px] object-cover object-center"
                 />
             </div>
 

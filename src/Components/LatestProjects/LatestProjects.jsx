@@ -4,13 +4,12 @@ import imgCover from '../../assets/imgs/imgCoverProjects.png';
 import Slider from 'react-slick';
 import { Fancybox } from '@fancyapps/ui';
 import '@fancyapps/ui/dist/fancybox/fancybox.css';
-import imgLatest1 from '../../assets/imgs/latetest/white1.jpg';
+import imgLatest1 from '../../assets/imgs/tab8/tab8.1.jpg';
 import imgLatest3 from '../../assets/imgs/latetest/white2.jpg';
-import imgLatest4 from '../../assets/imgs/latetest/black1.png';
-import imgLatest5 from '../../assets/imgs/latetest/black2.png';
+import imgLatest4 from '../../assets/imgs/tab8/tab8.5.jpg';
+import imgLatest5 from '../../assets/imgs/tab8/tab8.8.jpg';
 import imgLatest6 from '../../assets/imgs/latetest/gray1.png';
 import imgLatest7 from '../../assets/imgs/latetest/gray2.png';
-import imgLatest8 from '../../assets/imgs/latetest/gray3.png';
 
 const LatestProjects = () => {
     const PrevArrow = (props) => {
@@ -128,24 +127,6 @@ const LatestProjects = () => {
 
                         <div>
                             <div style={itemStyle}>
-                                <a href={imgLatest4} data-fancybox="projects">
-                                    <img
-                                        src={imgLatest4}
-                                        alt=""
-                                        className="w-full h-[350px] object-cover"
-                                        onClick={() => {
-                                            Fancybox.bind(
-                                                '[data-fancybox="projects"]',
-                                                {}
-                                            );
-                                        }}
-                                    />
-                                </a>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div style={itemStyle}>
                                 <a href={imgLatest7} data-fancybox="projects">
                                     <img
                                         src={imgLatest7}
@@ -164,27 +145,9 @@ const LatestProjects = () => {
 
                         <div>
                             <div style={itemStyle}>
-                                <a href={imgLatest5} data-fancybox="projects">
+                                <a href={imgLatest4} data-fancybox="projects">
                                     <img
-                                        src={imgLatest5}
-                                        alt=""
-                                        className="w-full h-[350px] object-cover"
-                                        onClick={() => {
-                                            Fancybox.bind(
-                                                '[data-fancybox="projects"]',
-                                                {}
-                                            );
-                                        }}
-                                    />
-                                </a>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div style={itemStyle}>
-                                <a href={imgLatest8} data-fancybox="projects">
-                                    <img
-                                        src={imgLatest8}
+                                        src={imgLatest4}
                                         alt=""
                                         className="w-full h-[350px] object-cover"
                                         onClick={() => {
@@ -203,6 +166,24 @@ const LatestProjects = () => {
                                 <a href={imgLatest3} data-fancybox="projects">
                                     <img
                                         src={imgLatest3}
+                                        alt=""
+                                        className="w-full h-[350px] object-cover"
+                                        onClick={() => {
+                                            Fancybox.bind(
+                                                '[data-fancybox="projects"]',
+                                                {}
+                                            );
+                                        }}
+                                    />
+                                </a>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div style={itemStyle}>
+                                <a href={imgLatest5} data-fancybox="projects">
+                                    <img
+                                        src={imgLatest5}
                                         alt=""
                                         className="w-full h-[350px] object-cover"
                                         onClick={() => {
