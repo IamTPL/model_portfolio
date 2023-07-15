@@ -16,7 +16,7 @@ const About = () => {
                 <img
                     src={img5}
                     alt="image"
-                    className="sm:mx-auto h-[700px] lg:h-[550px] md:h-[480px] w-full md:w-[350px] object-cover object-center"
+                    className="sm:mx-auto h-[750px] lg:h-[600px] md:h-[480px] w-full md:w-[350px] object-cover object-center"
                 />
             </div>
 
@@ -71,7 +71,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="absolute sm:relative sm:px-10 xs:px-4 bottom-10 lg:bottom-40 md:bottom-20 sm:bottom-[-20px] ">
+                <div className="mt-[65%] lg:mt-10 sm:mx-4 sm:mt-5">
                     <div className="flex space-x-3">
                         <a
                             href="https://www.instagram.com/nglyuri/?fbclid=IwAR1Ljq83ivMqzYjnQwaCRRb-ZqdF54ct_aKFYAa2WaAA2aYhW8z9_yDNyWY"

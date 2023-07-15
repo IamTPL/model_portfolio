@@ -93,15 +93,17 @@ const LatestProjects = () => {
     };
 
     return (
-        <div className="latest_project pt-20 lg:pt-10 sm:pt-5 w-screen max-w-[1495px] mx-auto">
-            <img
-                src={imgCover}
-                alt="cover image"
-                className="w-full h-[450px] md:h-[300px] xs:h-[240px] object-cover object-top"
-                id="projects"
-            />
+        <div className="latest_project pt-20 lg:pt-10 sm:pt-5 overflow-hidden max-w-[1495px] mx-auto">
+            <div className="w-full overflow-hidden">
+                <img
+                    src={imgCover}
+                    alt="cover image"
+                    className="w-full h-[450px] md:h-[300px] xs:h-[240px] object-cover object-top"
+                    id="projects"
+                />
+            </div>
 
-            <div className="mx-[80px] lg:mx-[60px] md:mx-[40px] xs:mx-5 relative bg-[#d3d3d3] pb-16">
+            <div className="mx-[80px] lg:mx-[60px] md:mx-[40px] xs:mx-4 relative bg-[#d3d3d3] pb-16">
                 <div className="absolute top-0 left-0 right-0 px-[110px] lg:px-[60px] md:px-[50px] xs:px-5 translate-y-[-50%] z-10">
                     <div className="bg-black h-[290px] md:h-[240px] sm:h-[180px]">
                         <h2 className="pt-10 text-white text-6xl md:text-5xl sm:text-3xl xs:text-2xl text-center">
@@ -111,7 +113,7 @@ const LatestProjects = () => {
                     </div>
                 </div>
 
-                <div className="relative pt-10 md:pt-5 px-[150px] md:px-24 xs:px-10 z-20">
+                <div className="relative pt-10 md:pt-5 px-[150px] md:px-24 xs:px-9 z-20">
                     <Slider {...settings}>
                         <div>
                             <div style={itemStyle}>
