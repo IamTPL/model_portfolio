@@ -1,6 +1,6 @@
 import React from 'react';
 import './LatestProjectsStyle.css';
-import imgCover from '../../assets/imgs/imgCoverProjects.png';
+import imgCover from '../../assets/imgs/CoverProjects.jpg';
 import Slider from 'react-slick';
 import { Fancybox } from '@fancyapps/ui';
 import '@fancyapps/ui/dist/fancybox/fancybox.css';

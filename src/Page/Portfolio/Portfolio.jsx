@@ -13,6 +13,8 @@ import Tab9 from './tabs/Tab9';
 import Tab10 from './tabs/Tab10';
 import Tab11 from './tabs/Tab11';
 import Tab12 from './tabs/Tab12';
+import Tab13 from './tabs/Tab13';
+import Tab14 from './tabs/Tab14';
 
 const Portfolio = () => {
     const items = [
@@ -76,6 +78,16 @@ const Portfolio = () => {
             label: `12`,
             children: <Tab12></Tab12>,
         },
+        {
+            key: '13',
+            label: `13`,
+            children: <Tab13></Tab13>,
+        },
+        {
+            key: '14',
+            label: `14`,
+            children: <Tab14></Tab14>,
+        },
     ];
 
     return (
@@ -89,7 +101,7 @@ const Portfolio = () => {
                 </h1>
             </div>
             <div className="mt-5 text-center mx-auto lg:px-10 sm:px-4 xs:px-2">
-                <Tabs defaultActiveKey="12" items={items} />
+                <Tabs defaultActiveKey="14" items={items} />
             </div>
         </div>
     );

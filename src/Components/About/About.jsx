@@ -1,8 +1,8 @@
 import React from 'react';
 import './AboutStyle.css';
-import img5 from '../../assets/imgs/tab11/tab11.5.JPG';
+import img5 from '../../assets/imgs/aboutCover.jpg';
 import img3 from '../../assets/imgs/img3.PNG';
-import img6 from '../../assets/imgs/img6.PNG';
+import img6 from '../../assets/imgs/aboutThumb2.jpg';
 import img7 from '../../assets/imgs/img7.jpg';
 import img8 from '../../assets/imgs/about4.jpg';
 
@@ -53,7 +53,7 @@ const About = () => {
                         <div className="measure_item flex flex-col">
                             <span>WAIST</span>
                             <span className="text-[#cb997e] font-medium text-sm xs:text-xs">
-                                59 cm
+                                60 cm
                             </span>
                         </div>
                         <div className="measure_item flex flex-col">
@@ -135,7 +135,7 @@ const About = () => {
                     <img
                         src={img6}
                         alt=""
-                        className="h-[220px] xl:h-[200px] w-full object-cover object-center"
+                        className="h-[220px] xl:h-[200px] w-full object-cover object-top"
                     />
                     <p className="pr-5 pb-1 mt-2 text-sm text-[#524a4f] border-b border-[#CB997E]">
                         Lorem ipsum dolor sit amet.

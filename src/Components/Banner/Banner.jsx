@@ -1,7 +1,7 @@
 import React from 'react';
 import './BannerStyte.css';
-import img1 from '../../assets/imgs/img1.1.PNG';
-import img2 from '../../assets/imgs/img2.1.png';
+import img1 from '../../assets/imgs/avarta.jpg';
+import img2 from '../../assets/imgs/banner.jpg';
 import img3 from '../../assets/imgs/img3.1.jpg';
 import img4 from '../../assets/imgs/img4.jpg';
 import { NavLink } from 'react-router-dom';
