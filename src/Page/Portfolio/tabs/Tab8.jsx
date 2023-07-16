@@ -18,7 +18,6 @@ import img_8 from '../../../assets/imgs/tab8/tab8.8.jpg';
 import img_8cp from '../../../assets/imgs/tab8/tab8.8cp.jpg';
 import img_9 from '../../../assets/imgs/tab8/tab8.9.jpg';
 import img_9cp from '../../../assets/imgs/tab8/tab8.9cp.jpg';
-import video1 from '../../../assets/imgs/tab8/video8.1.mp4';
 
 const Tab8 = () => {
     return (
@@ -64,19 +63,6 @@ const Tab8 = () => {
                     }}
                 >
                     <img className="image_popup" src={img_3cp} alt="" />
-                </div>
-            </a>
-
-            <a href={video1} data-fancybox="tab8">
-                <div
-                    className="relative img_block max-h-[610px] w-fit mx-auto"
-                    onClick={() => {
-                        Fancybox.bind('[data-fancybox="tab8"]', {});
-                    }}
-                >
-                    <video autoPlay loop muted className="h-full">
-                        <source src={video1} />
-                    </video>
                 </div>
             </a>
 

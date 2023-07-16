@@ -36,7 +36,7 @@ const Tab4 = () => {
                     }}
                 >
                     <img
-                        className="image_popup h-[611px] mx-auto"
+                        className="image_popup max-h-[611px] mx-auto"
                         src={img_2cp}
                         alt=""
                     />
