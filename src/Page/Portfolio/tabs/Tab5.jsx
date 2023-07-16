@@ -14,6 +14,7 @@ import img_6 from '../../../assets/imgs/tab5/tab5.6.PNG';
 import img_6cp from '../../../assets/imgs/tab5/tab5.6cp.PNG';
 import img_7 from '../../../assets/imgs/tab5/tab5.7.PNG';
 import img_7cp from '../../../assets/imgs/tab5/tab5.7cp.PNG';
+import video1 from '../../../assets/imgs/tab5/video5.1.mp4';
 
 const Tab5 = () => {
     return (
@@ -26,6 +27,19 @@ const Tab5 = () => {
                     }}
                 >
                     <img className="image_popup" src={img_1cp} alt="" />
+                </div>
+            </a>
+
+            <a href={video1} data-fancybox="tab5">
+                <div
+                    className="relative img_block max-h-[610px] w-fit mx-auto"
+                    onClick={() => {
+                        Fancybox.bind('[data-fancybox="tab5"]', {});
+                    }}
+                >
+                    <video autoPlay loop muted className="h-full">
+                        <source src={video1} />
+                    </video>
                 </div>
             </a>
 
