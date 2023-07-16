@@ -8,11 +8,11 @@ import img_3 from '../../../assets/imgs/tab4/tab4.3.PNG';
 import img_3cp from '../../../assets/imgs/tab4/tab4.3cp.jpg';
 import img_4 from '../../../assets/imgs/tab4/tab4.4.PNG';
 import img_4cp from '../../../assets/imgs/tab4/tab4.4cp.jpg';
-import img_5 from '../../../assets/imgs/tab4/tab4.5.JPG';
+import img_5 from '../../../assets/imgs/tab4/tab4.5.jpg';
 import img_5cp from '../../../assets/imgs/tab4/tab4.5cp.jpg';
-import img_6 from '../../../assets/imgs/tab4/tab4.6.JPG';
+import img_6 from '../../../assets/imgs/tab4/tab4.6.jpg';
 import img_6cp from '../../../assets/imgs/tab4/tab4.6cp.jpg';
-import img_7 from '../../../assets/imgs/tab4/tab4.7.JPG';
+import img_7 from '../../../assets/imgs/tab4/tab4.7.jpg';
 
 const Tab4 = () => {
     return (
