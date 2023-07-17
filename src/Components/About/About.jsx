@@ -127,7 +127,14 @@ const About = () => {
                         className="h-[220px] xl:h-[200px] w-full object-cover object-top"
                     />
                     <p className="pr-5 pb-1 mt-2 text-sm text-[#524a4f] border-b border-[#CB997E]">
-                        Lorem ipsum dolor sit amet.
+                        <p className="font-bold">
+                            13
+                            <span className="inline-block -translate-y-1">
+                                th
+                            </span>{' '}
+                            May, 2023
+                        </p>
+                        <p>brand Must Have</p>
                     </p>
                 </div>
 
@@ -138,7 +145,14 @@ const About = () => {
                         className="h-[220px] xl:h-[200px] w-full object-cover object-top"
                     />
                     <p className="pr-5 pb-1 mt-2 text-sm text-[#524a4f] border-b border-[#CB997E]">
-                        Lorem ipsum dolor sit amet.
+                        <p className="font-bold">
+                            25
+                            <span className="inline-block -translate-y-1">
+                                th
+                            </span>{' '}
+                            May, 2023
+                        </p>
+                        <p>brand Troy's</p>
                     </p>
                 </div>
 
@@ -149,7 +163,14 @@ const About = () => {
                         className="h-[220px] xl:h-[200px] w-full object-cover object-center"
                     />
                     <p className="pr-5 pb-1 mt-2 text-sm text-[#524a4f] border-b border-[#CB997E]">
-                        Lorem ipsum dolor sit amet.
+                        <p className="font-bold">
+                            13
+                            <span className="inline-block -translate-y-1">
+                                th
+                            </span>{' '}
+                            May, 2023
+                        </p>
+                        <p>brand Must Have</p>
                     </p>
                 </div>
 
@@ -160,7 +181,14 @@ const About = () => {
                         className="h-[220px] xl:h-[200px] w-full object-cover object-center"
                     />
                     <p className="w-[180px] pr-5 pb-1 mt-2 text-sm text-[#524a4f] border-b border-[#CB997E]">
-                        Lorem ipsum dolor sit amet.
+                        <p className="font-bold">
+                            25
+                            <span className="inline-block -translate-y-1">
+                                th
+                            </span>{' '}
+                            May, 2023
+                        </p>
+                        <p>brand Troy's</p>
                     </p>
                 </div>
             </div>
