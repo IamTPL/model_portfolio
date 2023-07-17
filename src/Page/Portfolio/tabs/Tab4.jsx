@@ -73,7 +73,7 @@ const Tab4 = () => {
                 </div>
             </a>
 
-            <a href={img_5} data-fancybox="tab4">
+            <a href={img_5} data-fancybox="tab4" className="xs:col-span-2">
                 <div
                     className="relative img_block h-full"
                     onClick={() => {
@@ -88,7 +88,7 @@ const Tab4 = () => {
                 </div>
             </a>
 
-            <a href={img_6} data-fancybox="tab4">
+            <a href={img_6} data-fancybox="tab4" className="xs:col-span-2">
                 <div
                     className="relative img_block"
                     onClick={() => {
@@ -99,7 +99,7 @@ const Tab4 = () => {
                 </div>
             </a>
 
-            <a href={img_1} data-fancybox="tab4">
+            <a href={img_1} data-fancybox="tab4" className="xs:col-span-2">
                 <div
                     className="relative img_block h-full"
                     onClick={() => {
