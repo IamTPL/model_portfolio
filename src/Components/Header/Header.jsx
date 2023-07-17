@@ -37,10 +37,10 @@ const Header = () => {
                 isHeaderVisible ? 'top-0' : 'top-[-80px]'
             } left-0 right-0 bg-[#efefef] duration-300 z-50`}
         >
-            <div className="px-[50px] h-20 xs:h-14 flex justify-between items-center">
-                <HashLink to="/">
+            <div className="px-[50px] h-20 xs:h-16 flex justify-between items-center">
+                <HashLink to="/" className="xs:flex-1">
                     <h1
-                        className="cursor-pointer logoHeader text-2xl hover:scale-110 duration-300"
+                        className="cursor-pointer logoHeader text-[28px] hover:scale-110 duration-300"
                         onClick={() => {
                             window.scrollTo(0, 0);
                         }}
@@ -70,17 +70,15 @@ const Header = () => {
                     </HashLink>
                 </div>
 
-                <div>
-                    <NavLink
-                        to="/portfolio"
-                        className="btn_portfolio text-lg hover:text-black duration-300"
-                    >
-                        <div className="flex items-center animate-pulse hover:animate-none">
-                            <span className="font-bold">Portfolio</span>
-                            <i className="fa-solid fa-plus ml-1 text-xs"></i>
-                        </div>
-                    </NavLink>
-                </div>
+                <NavLink
+                    to="/portfolio"
+                    className="xs:flex-1 xs:flex xs:justify-end btn_portfolio text-lg hover:text-black duration-300"
+                >
+                    <div className="flex items-center text-xl animate-pulse hover:animate-none">
+                        <span className="font-bold">Portfolio</span>
+                        <i className="fa-solid fa-plus ml-1 text-xs"></i>
+                    </div>
+                </NavLink>
             </div>
         </div>
     );
