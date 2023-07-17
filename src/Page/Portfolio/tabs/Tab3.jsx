@@ -10,10 +10,53 @@ import img_6 from '../../../assets/imgs/tab3/tab3.6.jpg';
 import img_6cp from '../../../assets/imgs/tab3/tab3.6cp.jpg';
 import img_7 from '../../../assets/imgs/tab3/tab3.7.jpg';
 import img_7cp from '../../../assets/imgs/tab3/tab3.7cp.jpg';
+import img_8 from '../../../assets/imgs/tab3/tab3.8.jpg';
+import img_8cp from '../../../assets/imgs/tab3/tab3.8cp.jpg';
+import img_9 from '../../../assets/imgs/tab3/tab3.9.jpg';
+import img_9cp from '../../../assets/imgs/tab3/tab3.9cp.jpg';
+import img_10 from '../../../assets/imgs/tab3/tab3.10.jpg';
+import img_10cp from '../../../assets/imgs/tab3/tab3.10cp.jpg';
 
 const Tab3 = () => {
     return (
         <div className="tab3 mt-20 grid grid-cols-3 xs:grid-cols-2 gap-8 sm:gap-4 xs:gap-2">
+            <a
+                href={img_8}
+                data-fancybox="tab3"
+                className="sm:col-span-2 sm:row-span-2"
+            >
+                <div
+                    className="relative img_block"
+                    onClick={() => {
+                        Fancybox.bind('[data-fancybox="tab3"]', {});
+                    }}
+                >
+                    <img className="image_popup" src={img_8cp} alt="" />
+                </div>
+            </a>
+
+            <a href={img_9} data-fancybox="tab3">
+                <div
+                    className="relative img_block"
+                    onClick={() => {
+                        Fancybox.bind('[data-fancybox="tab3"]', {});
+                    }}
+                >
+                    <img className="image_popup" src={img_9cp} alt="" />
+                </div>
+            </a>
+
+            <a href={img_10} data-fancybox="tab3">
+                <div
+                    className="relative img_block"
+                    onClick={() => {
+                        Fancybox.bind('[data-fancybox="tab3"]', {});
+                    }}
+                >
+                    <img className="image_popup" src={img_10cp} alt="" />
+                </div>
+            </a>
+
             <a href={img_1} data-fancybox="tab3">
                 <div
                     className="relative img_block"
