@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Fancybox } from '@fancyapps/ui';
 import img_1 from '../../../assets/imgs/tab14/tab14.1.jpg';
 import img_1cp from '../../../assets/imgs/tab14/tab14.1cp.jpg';
-import img_1x500 from '../../../assets/imgs/tab14/tab14.1x500.jpg';
+import img_1x600 from '../../../assets/imgs/tab14/tab14.1x600.jpg';
 import img_2 from '../../../assets/imgs/tab14/tab14.2.jpg';
 import img_2cp from '../../../assets/imgs/tab14/tab14.2cp.jpg';
 import img_3 from '../../../assets/imgs/tab14/tab14.3.jpg';
@@ -17,7 +17,7 @@ const Tab14 = () => {
         <div className="tab14 mt-20 grid grid-cols-2 xs:grid-cols-2 gap-y-28 md:gap-8 sm:gap-4 xs:gap-2">
             <div className="w-fit relative">
                 <a
-                    href={windowWidth > 575 ? img_1 : img_1x500}
+                    href={windowWidth > 575 ? img_1 : img_1x600}
                     data-fancybox="tab14"
                 >
                     <div
