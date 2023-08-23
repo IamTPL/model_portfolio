@@ -11,50 +11,62 @@ import img_4cp from '../../../assets/imgs/tab7/tab7.4cp.jpg';
 
 const Tab7 = () => {
     return (
-        <div className="tab7 mt-20 grid grid-cols-3 xs:grid-cols-2 gap-8 sm:gap-4 xs:gap-2">
-            <a href={img_1} data-fancybox="tab7">
-                <div
-                    className="relative img_block"
-                    onClick={() => {
-                        Fancybox.bind('[data-fancybox="tab7"]', {});
-                    }}
-                >
-                    <img className="image_popup" src={img_1cp} alt="" />
-                </div>
-            </a>
+        <div className="tab7 mt-20 grid grid-cols-2 xs:grid-cols-2 gap-y-28 md:gap-8 sm:gap-4 xs:gap-2">
+            <div className="w-fit relative">
+                <a href={img_1} data-fancybox="tab7">
+                    <div
+                        className="relative img_block"
+                        onClick={() => {
+                            Fancybox.bind('[data-fancybox="tab7"]', {});
+                        }}
+                    >
+                        <img className="image_popup" src={img_1cp} alt="" />
+                    </div>
+                </a>
+                <p className="tag_mess_1 text-[#c991bf]">Skrttttt</p>
+            </div>
 
-            <a href={img_2} data-fancybox="tab7">
-                <div
-                    className="relative img_block"
-                    onClick={() => {
-                        Fancybox.bind('[data-fancybox="tab7"]', {});
-                    }}
-                >
-                    <img className="image_popup" src={img_2cp} alt="" />
-                </div>
-            </a>
+            <div className="w-fit relative ml-auto mt-32 lg:mt-0">
+                <a href={img_2} data-fancybox="tab7">
+                    <div
+                        className="relative img_block"
+                        onClick={() => {
+                            Fancybox.bind('[data-fancybox="tab7"]', {});
+                        }}
+                    >
+                        <img className="image_popup" src={img_2cp} alt="" />
+                    </div>
+                </a>
+                <p className="tag_mess_2 text-[#c991bf]">Yuriiiiii</p>
+            </div>
 
-            <a href={img_3} data-fancybox="tab7">
-                <div
-                    className="relative img_block"
-                    onClick={() => {
-                        Fancybox.bind('[data-fancybox="tab7"]', {});
-                    }}
-                >
-                    <img className="image_popup" src={img_3cp} alt="" />
-                </div>
-            </a>
+            <div className="w-fit relative">
+                <a href={img_3} data-fancybox="tab7">
+                    <div
+                        className="relative img_block"
+                        onClick={() => {
+                            Fancybox.bind('[data-fancybox="tab7"]', {});
+                        }}
+                    >
+                        <img className="image_popup" src={img_3cp} alt="" />
+                    </div>
+                </a>
+                <p className="tag_mess_3 text-[#c991bf]">Hmmmmmm</p>
+            </div>
 
-            <a href={img_4} data-fancybox="tab7">
-                <div
-                    className="relative img_block"
-                    onClick={() => {
-                        Fancybox.bind('[data-fancybox="tab7"]', {});
-                    }}
-                >
-                    <img className="image_popup" src={img_4cp} alt="" />
-                </div>
-            </a>
+            <div className="w-fit relative ml-auto mt-32 lg:mt-0">
+                <a href={img_4} data-fancybox="tab7">
+                    <div
+                        className="relative img_block"
+                        onClick={() => {
+                            Fancybox.bind('[data-fancybox="tab7"]', {});
+                        }}
+                    >
+                        <img className="image_popup" src={img_4cp} alt="" />
+                    </div>
+                </a>
+                <p className="tag_mess_4 text-[#c991bf]">Gruhhhhh</p>
+            </div>
         </div>
     );
 };
