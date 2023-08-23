@@ -50,8 +50,51 @@
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+.tag_mess_1 {
+    position: absolute;
+    top: 5%;
+    right: -50%;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 40px;
+}
+
+.tag_mess_2 {
+    position: absolute;
+    bottom: 40%;
+    left: -43%;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.tag_mess_3 {
+    position: absolute;
+    top: -10%;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.tag_mess_4 {
+    position: absolute;
+    top: 40%;
+    left: -50%;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 40px;
+    font-weight: 700;
+}
+
 @media screen and (max-width: 575px) {
     .ant-tabs .ant-tabs-tab {
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1201px) {
+    .tag_mess_1,
+    .tag_mess_2,
+    .tag_mess_3,
+    .tag_mess_4 {
+        display: none;
     }
 }
