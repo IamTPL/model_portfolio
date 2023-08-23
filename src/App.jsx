@@ -6,6 +6,7 @@ import './App.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Layout from './Layout/Layout';
+import '@fancyapps/ui/dist/fancybox/fancybox.css';
 
 const HomePage = React.lazy(() => import('./Page/HomePage/HomePage'));
 const Portfolio = React.lazy(() => import('./Page/Portfolio/Portfolio'));
