@@ -45,7 +45,7 @@ const Tab15 = () => {
                         data-fancybox="tab15"
                     >
                         <div
-                            className="relative img_block"
+                            className="relative  img_block"
                             onClick={() => {
                                 Fancybox.bind('[data-fancybox="tab15"]', {});
                             }}
