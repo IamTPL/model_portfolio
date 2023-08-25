@@ -4,7 +4,7 @@ import img_1 from '../../../assets/imgs/tab12/tab12.1.JPG';
 import img_1x600 from '../../../assets/imgs/tab12/tab12.1x600.jpg';
 import img_2 from '../../../assets/imgs/tab12/tab12.2.JPG';
 import img_2x600 from '../../../assets/imgs/tab12/tab12.2x600.jpg';
-import img_4 from '../../../assets/imgs/tab12/tab12.4.JPG';
+import img_4 from '../../../assets/imgs/tab12/tab12.4.jpg';
 import img_4x600 from '../../../assets/imgs/tab12/tab12.4x600.jpg';
 import img_5 from '../../../assets/imgs/tab12/tab12.5.JPG';
 import img_5x400 from '../../../assets/imgs/tab12/tab12.5x420.jpg';
