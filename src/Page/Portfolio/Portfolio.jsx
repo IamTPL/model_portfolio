@@ -15,6 +15,7 @@ import Tab11 from './tabs/Tab11';
 import Tab12 from './tabs/Tab12';
 import Tab13 from './tabs/Tab13';
 import Tab14 from './tabs/Tab14';
+import Tab15 from './tabs/Tab15';
 
 const Portfolio = () => {
     const items = [
@@ -88,6 +89,11 @@ const Portfolio = () => {
             label: `14`,
             children: <Tab14></Tab14>,
         },
+        {
+            key: '15',
+            label: `15`,
+            children: <Tab15></Tab15>,
+        },
     ];
 
     return (
@@ -101,7 +107,7 @@ const Portfolio = () => {
                 </h1>
             </div>
             <div className="mt-5 text-center mx-auto lg:px-10 sm:px-4 xs:px-2">
-                <Tabs defaultActiveKey="14" items={items} />
+                <Tabs defaultActiveKey="15" items={items} />
             </div>
         </div>
     );
