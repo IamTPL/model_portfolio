@@ -17,83 +17,103 @@ import img_7cp from '../../../assets/imgs/tab11/tab11.7cp.JPG';
 
 const Tab11 = () => {
     return (
-        <div className="tab11 mt-20 grid grid-cols-3 xs:grid-cols-2 gap-8 sm:gap-4 xs:gap-2">
-            <a href={img_1} data-fancybox="tab11">
-                <div
-                    className="relative img_block"
-                    onClick={() => {
-                        Fancybox.bind('[data-fancybox="tab11"]', {});
-                    }}
-                >
-                    <img className="image_popup" src={img_1cp} alt="" />
-                </div>
-            </a>
+        <div>
+            <div className="tab11 mt-20 grid grid-cols-3 gap-8 sm:gap-4 xs:gap-2">
+                <a href={img_5} data-fancybox="tab11">
+                    <div
+                        className="relative img_block"
+                        onClick={() => {
+                            Fancybox.bind('[data-fancybox="tab11"]', {});
+                        }}
+                    >
+                        <img className="image_popup" src={img_5cp} alt="" />
+                    </div>
+                </a>
 
-            <a href={img_2} data-fancybox="tab11">
-                <div
-                    className="relative img_block"
-                    onClick={() => {
-                        Fancybox.bind('[data-fancybox="tab11"]', {});
-                    }}
-                >
-                    <img className="image_popup" src={img_2cp} alt="" />
-                </div>
-            </a>
+                <a href={img_6} data-fancybox="tab11">
+                    <div
+                        className="relative img_block"
+                        onClick={() => {
+                            Fancybox.bind('[data-fancybox="tab11"]', {});
+                        }}
+                    >
+                        <img className="image_popup" src={img_6cp} alt="" />
+                    </div>
+                </a>
 
-            <a href={img_3} data-fancybox="tab11">
-                <div
-                    className="relative img_block"
-                    onClick={() => {
-                        Fancybox.bind('[data-fancybox="tab11"]', {});
-                    }}
-                >
-                    <img className="image_popup" src={img_3cp} alt="" />
-                </div>
-            </a>
+                <a href={img_7} data-fancybox="tab11">
+                    <div
+                        className="relative img_block"
+                        onClick={() => {
+                            Fancybox.bind('[data-fancybox="tab11"]', {});
+                        }}
+                    >
+                        <img className="image_popup" src={img_7cp} alt="" />
+                    </div>
+                </a>
+            </div>
 
-            <a href={img_4} data-fancybox="tab11">
-                <div
-                    className="relative img_block"
-                    onClick={() => {
-                        Fancybox.bind('[data-fancybox="tab11"]', {});
-                    }}
-                >
-                    <img className="image_popup" src={img_4cp} alt="" />
-                </div>
-            </a>
+            <h1 className="py-14 xs:py-8 text-4xl md:text-xl xs:text-sm title">
+                Lorem ipsum, dolor sit amet consectetur
+            </h1>
 
-            <a href={img_5} data-fancybox="tab11">
-                <div
-                    className="relative img_block"
-                    onClick={() => {
-                        Fancybox.bind('[data-fancybox="tab11"]', {});
-                    }}
-                >
-                    <img className="image_popup" src={img_5cp} alt="" />
+            <div className="grid grid-cols-2 gap-8 sm:gap-4 xs:gap-2">
+                <div className="w-fit relative">
+                    <a href={img_4} data-fancybox="tab11">
+                        <div
+                            className="relative img_block"
+                            onClick={() => {
+                                Fancybox.bind('[data-fancybox="tab11"]', {});
+                            }}
+                        >
+                            <img className="image_popup" src={img_4cp} alt="" />
+                        </div>
+                    </a>
+                    <p className="tag_mess_1 text-[#b08c67]">Skrttttt</p>
                 </div>
-            </a>
 
-            <a href={img_6} data-fancybox="tab11">
-                <div
-                    className="relative img_block"
-                    onClick={() => {
-                        Fancybox.bind('[data-fancybox="tab11"]', {});
-                    }}
-                >
-                    <img className="image_popup" src={img_6cp} alt="" />
+                <div className="w-fit relative ml-auto mt-32 lg:mt-0">
+                    <a href={img_1} data-fancybox="tab11">
+                        <div
+                            className="relative img_block"
+                            onClick={() => {
+                                Fancybox.bind('[data-fancybox="tab11"]', {});
+                            }}
+                        >
+                            <img className="image_popup" src={img_1cp} alt="" />
+                        </div>
+                    </a>
+                    <p className="tag_mess_2 text-[#b08c67]">Yuriiiiii</p>
                 </div>
-            </a>
 
-            <a href={img_7} data-fancybox="tab11">
-                <div
-                    className="relative img_block"
-                    onClick={() => {
-                        Fancybox.bind('[data-fancybox="tab11"]', {});
-                    }}
-                >
-                    <img className="image_popup" src={img_7cp} alt="" />
+                <div className="w-fit relative">
+                    <a href={img_2} data-fancybox="tab11">
+                        <div
+                            className="relative img_block"
+                            onClick={() => {
+                                Fancybox.bind('[data-fancybox="tab11"]', {});
+                            }}
+                        >
+                            <img className="image_popup" src={img_2cp} alt="" />
+                        </div>
+                    </a>
+                    <p className="tag_mess_3 text-[#b08c67]">Hmmmmmm</p>
                 </div>
-            </a>
+
+                <div className="w-fit relative ml-auto mt-32 lg:mt-0">
+                    <a href={img_3} data-fancybox="tab11">
+                        <div
+                            className="relative img_block"
+                            onClick={() => {
+                                Fancybox.bind('[data-fancybox="tab11"]', {});
+                            }}
+                        >
+                            <img className="image_popup" src={img_3cp} alt="" />
+                        </div>
+                    </a>
+                    <p className="tag_mess_4 text-[#b08c67]">Gruhhhhh</p>
+                </div>
+            </div>
         </div>
     );
 };

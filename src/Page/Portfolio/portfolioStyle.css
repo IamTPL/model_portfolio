@@ -83,6 +83,11 @@
     font-weight: 700;
 }
 
+.title {
+    font-family: 'Homemade Apple', cursive;
+    font-weight: 600;
+}
+
 @media screen and (max-width: 575px) {
     .ant-tabs .ant-tabs-tab {
         font-size: 14px;

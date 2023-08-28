@@ -43,21 +43,6 @@ const Tab4 = () => {
                 </div>
             </a>
 
-            <a href={img_3} data-fancybox="tab4">
-                <div
-                    className="relative img_block h-full"
-                    onClick={() => {
-                        Fancybox.bind('[data-fancybox="tab4"]', {});
-                    }}
-                >
-                    <img
-                        className="image_popup h-full object-cover"
-                        src={img_3cp}
-                        alt=""
-                    />
-                </div>
-            </a>
-
             <a href={img_4} data-fancybox="tab4">
                 <div
                     className="relative img_block h-full"
@@ -68,6 +53,21 @@ const Tab4 = () => {
                     <img
                         className="image_popup h-full object-cover"
                         src={img_4cp}
+                        alt=""
+                    />
+                </div>
+            </a>
+
+            <a href={img_3} data-fancybox="tab4">
+                <div
+                    className="relative img_block h-full"
+                    onClick={() => {
+                        Fancybox.bind('[data-fancybox="tab4"]', {});
+                    }}
+                >
+                    <img
+                        className="image_popup h-full object-cover"
+                        src={img_3cp}
                         alt=""
                     />
                 </div>
