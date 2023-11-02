@@ -240,10 +240,7 @@ const Tab12 = () => {
             </div>
 
             <div className="xs:col-span-2">
-                <a
-                    href={windowWidth > 575 ? img_4_15 : img_4_15x200}
-                    data-fancybox="tab15"
-                >
+                <a href={img_4_15} data-fancybox="tab15">
                     <div
                         className="relative img_block"
                         onClick={() => {

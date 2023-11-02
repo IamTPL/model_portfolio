@@ -79,7 +79,7 @@ const Portfolio = () => {
                 </h1>
             </div>
             <div className="mt-5 text-center mx-auto lg:px-10 sm:px-4 xs:px-2">
-                <Tabs defaultActiveKey="15" items={items} />
+                <Tabs defaultActiveKey="10" items={items} />
             </div>
         </div>
     );
