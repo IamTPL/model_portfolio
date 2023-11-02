@@ -15,6 +15,19 @@ import img_7x400 from '../../../assets/imgs/tab12/tab12.7x420.jpg';
 import img_8 from '../../../assets/imgs/tab12/tab12.8.JPG';
 import img_8x400 from '../../../assets/imgs/tab12/tab12.8x420.jpg';
 
+import img_1_15 from '../../../assets/imgs/tab12/tab15.1x800.jpg';
+import img_1_15x600 from '../../../assets/imgs/tab12/tab15.1x600.jpg';
+import img_1_15x300 from '../../../assets/imgs/tab12/tab15.1x300.jpg';
+import img_2_15 from '../../../assets/imgs/tab12/tab15.2x800.jpg';
+import img_2_15x600 from '../../../assets/imgs/tab12/tab15.2x600.jpg';
+import img_2_15x300 from '../../../assets/imgs/tab12/tab15.2x300.jpg';
+import img_3_15 from '../../../assets/imgs/tab12/tab15.3x850.jpg';
+import img_3_15x400 from '../../../assets/imgs/tab12/tab15.3x400.jpg';
+import img_4_15 from '../../../assets/imgs/tab12/tab15.4x420.jpg';
+import img_4_15x200 from '../../../assets/imgs/tab12/tab15.4x200.jpg';
+import img_5_15 from '../../../assets/imgs/tab12/tab15.5.jpg';
+import img_5_15x600 from '../../../assets/imgs/tab12/tab15.5x600.jpg';
+
 const Tab12 = () => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -138,6 +151,108 @@ const Tab12 = () => {
                         <img
                             className="image_popup"
                             src={windowWidth > 575 ? img_4 : img_4x600}
+                            alt=""
+                        />
+                    </div>
+                </a>
+            </div>
+
+            <div className="col-span-3 grid grid-cols-2">
+                <div className="">
+                    <a
+                        href={windowWidth > 575 ? img_1_15 : img_1_15x600}
+                        data-fancybox="tab12"
+                    >
+                        <div
+                            className="relative img_block"
+                            onClick={() => {
+                                Fancybox.bind('[data-fancybox="tab12"]', {});
+                            }}
+                        >
+                            <img
+                                className="image_popup"
+                                src={
+                                    windowWidth > 575 ? img_1_15 : img_1_15x300
+                                }
+                                alt=""
+                            />
+                        </div>
+                    </a>
+                </div>
+
+                <div className="">
+                    <a
+                        href={windowWidth > 575 ? img_2_15 : img_2_15x600}
+                        data-fancybox="tab12"
+                    >
+                        <div
+                            className="relative  img_block"
+                            onClick={() => {
+                                Fancybox.bind('[data-fancybox="tab12"]', {});
+                            }}
+                        >
+                            <img
+                                className="image_popup"
+                                src={
+                                    windowWidth > 575 ? img_2_15 : img_2_15x300
+                                }
+                                alt=""
+                            />
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div className="w-fit mx-auto col-span-3">
+                <a
+                    href={windowWidth > 575 ? img_5_15 : img_5_15x600}
+                    data-fancybox="tab12"
+                >
+                    <div
+                        className="relative img_block"
+                        onClick={() => {
+                            Fancybox.bind('[data-fancybox="tab12"]', {});
+                        }}
+                    >
+                        <img className="image_popup" src={img_5_15} alt="" />
+                    </div>
+                </a>
+            </div>
+
+            <div className="col-span-2">
+                <a
+                    href={windowWidth > 575 ? img_3_15 : img_3_15x400}
+                    data-fancybox="tab12"
+                >
+                    <div
+                        className="relative img_block"
+                        onClick={() => {
+                            Fancybox.bind('[data-fancybox="tab12"]', {});
+                        }}
+                    >
+                        <img
+                            className="image_popup"
+                            src={windowWidth > 575 ? img_3_15 : img_3_15x400}
+                            alt=""
+                        />
+                    </div>
+                </a>
+            </div>
+
+            <div className="col-span">
+                <a
+                    href={windowWidth > 575 ? img_4_15 : img_4_15x200}
+                    data-fancybox="tab15"
+                >
+                    <div
+                        className="relative img_block"
+                        onClick={() => {
+                            Fancybox.bind('[data-fancybox="tab15"]', {});
+                        }}
+                    >
+                        <img
+                            className="image_popup"
+                            src={windowWidth > 575 ? img_4_15 : img_4_15x200}
                             alt=""
                         />
                     </div>

@@ -4,18 +4,13 @@ import { Tabs } from 'antd';
 import Tab1 from './tabs/Tab1';
 import Tab2 from './tabs/Tab2';
 import Tab3 from './tabs/Tab3';
-import Tab4 from './tabs/Tab4';
-import Tab5 from './tabs/Tab5';
 import Tab6 from './tabs/Tab6';
-import Tab7 from './tabs/Tab7';
 import Tab8 from './tabs/Tab8';
 import Tab9 from './tabs/Tab9';
 import Tab10 from './tabs/Tab10';
 import Tab11 from './tabs/Tab11';
 import Tab12 from './tabs/Tab12';
 import Tab13 from './tabs/Tab13';
-import Tab14 from './tabs/Tab14';
-import Tab15 from './tabs/Tab15';
 
 const Portfolio = () => {
     const items = [
@@ -34,65 +29,42 @@ const Portfolio = () => {
             label: `3`,
             children: <Tab3></Tab3>,
         },
+
         {
             key: '4',
             label: `4`,
-            children: <Tab4></Tab4>,
+            children: <Tab6></Tab6>,
         },
+
         {
             key: '5',
             label: `5`,
-            children: <Tab5></Tab5>,
+            children: <Tab8></Tab8>,
         },
         {
             key: '6',
             label: `6`,
-            children: <Tab6></Tab6>,
+            children: <Tab9></Tab9>,
         },
         {
             key: '7',
             label: `7`,
-            children: <Tab7></Tab7>,
+            children: <Tab10></Tab10>,
         },
         {
             key: '8',
             label: `8`,
-            children: <Tab8></Tab8>,
+            children: <Tab11></Tab11>,
         },
         {
             key: '9',
             label: `9`,
-            children: <Tab9></Tab9>,
+            children: <Tab12></Tab12>,
         },
         {
             key: '10',
             label: `10`,
-            children: <Tab10></Tab10>,
-        },
-        {
-            key: '11',
-            label: `11`,
-            children: <Tab11></Tab11>,
-        },
-        {
-            key: '12',
-            label: `12`,
-            children: <Tab12></Tab12>,
-        },
-        {
-            key: '13',
-            label: `13`,
             children: <Tab13></Tab13>,
-        },
-        {
-            key: '14',
-            label: `14`,
-            children: <Tab14></Tab14>,
-        },
-        {
-            key: '15',
-            label: `15`,
-            children: <Tab15></Tab15>,
         },
     ];
 

@@ -1,13 +1,13 @@
 import React from 'react';
 import { Fancybox } from '@fancyapps/ui';
-import img_1 from '../../../assets/imgs/tab2/tab2.1.jpg';
-import img_1cp from '../../../assets/imgs/tab2/tab2.1cp.jpg';
-import img_2 from '../../../assets/imgs/tab2/tab2.2.jpg';
-import img_2cp from '../../../assets/imgs/tab2/tab2.2cp.jpg';
-import img_3 from '../../../assets/imgs/tab2/tab2.3.jpg';
-import img_3cp from '../../../assets/imgs/tab2/tab2.3cp.jpg';
-import img_4 from '../../../assets/imgs/tab2/tab2.4.jpg';
-import img_4cp from '../../../assets/imgs/tab2/tab2.4cp.jpg';
+import img_1 from '../../../assets/imgs/tab2/tab2.1.PNG';
+import img_1cp from '../../../assets/imgs/tab2/tab2.1cp.PNG';
+import img_2 from '../../../assets/imgs/tab2/tab2.2.PNG';
+import img_2cp from '../../../assets/imgs/tab2/tab2.2cp.PNG';
+import img_3 from '../../../assets/imgs/tab2/tab2.3.PNG';
+import img_3cp from '../../../assets/imgs/tab2/tab2.3cp.PNG';
+import img_7 from '../../../assets/imgs/tab2/tab2.7.PNG';
+import img_7cp from '../../../assets/imgs/tab2/tab2.7cp.PNG';
 
 const Tab2 = () => {
     return (
@@ -23,7 +23,7 @@ const Tab2 = () => {
                         <img className="image_popup" src={img_1cp} alt="" />
                     </div>
                 </a>
-                <p className="tag_mess_1 text-[#ed9e9a]">Skrttttt</p>
+                <p className="tag_mess_1 text-[#e9ccab]">Skrttttt</p>
             </div>
 
             <div className="w-fit relative ml-auto mt-32 lg:mt-0">
@@ -37,7 +37,7 @@ const Tab2 = () => {
                         <img className="image_popup" src={img_2cp} alt="" />
                     </div>
                 </a>
-                <p className="tag_mess_2 text-[#ed9e9a]">Yuriiiiii</p>
+                <p className="tag_mess_2 text-[#e9ccab]">Yuriiiiii</p>
             </div>
 
             <div className="w-fit relative">
@@ -51,25 +51,21 @@ const Tab2 = () => {
                         <img className="image_popup" src={img_3cp} alt="" />
                     </div>
                 </a>
-                <p className="tag_mess_3 text-[#ed9e9a]">Hmmmmmm</p>
+                <p className="tag_mess_3 text-[#e9ccab]">Hmmmmmm</p>
             </div>
 
             <div className="w-fit relative ml-auto mt-32 lg:mt-0">
-                <a
-                    href={img_4}
-                    data-fancybox="tab2"
-                    className="row-start-2 row-end-4"
-                >
+                <a href={img_7} data-fancybox="tab2">
                     <div
                         className="relative img_block"
                         onClick={() => {
                             Fancybox.bind('[data-fancybox="tab2"]', {});
                         }}
                     >
-                        <img className="image_popup" src={img_4cp} alt="" />
+                        <img className="image_popup" src={img_7cp} alt="" />
                     </div>
                 </a>
-                <p className="tag_mess_4 text-[#ed9e9a]">Gruhhhhh</p>
+                <p className="tag_mess_4 text-[#e9ccab]">Gruhhhhh</p>
             </div>
         </div>
     );
