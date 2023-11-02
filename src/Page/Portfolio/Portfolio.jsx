@@ -22,7 +22,7 @@ const Portfolio = () => {
         {
             key: '2',
             label: `2`,
-            children: <Tab2></Tab2>,
+            children: <Tab6></Tab6>,
         },
         {
             key: '3',
@@ -33,13 +33,13 @@ const Portfolio = () => {
         {
             key: '4',
             label: `4`,
-            children: <Tab6></Tab6>,
+            children: <Tab2></Tab2>,
         },
 
         {
             key: '5',
             label: `5`,
-            children: <Tab8></Tab8>,
+            children: <Tab11></Tab11>,
         },
         {
             key: '6',
@@ -54,7 +54,7 @@ const Portfolio = () => {
         {
             key: '8',
             label: `8`,
-            children: <Tab11></Tab11>,
+            children: <Tab8></Tab8>,
         },
         {
             key: '9',
