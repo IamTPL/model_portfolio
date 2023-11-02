@@ -219,7 +219,7 @@ const Tab12 = () => {
                 </a>
             </div>
 
-            <div className="col-span-2">
+            <div className="col-span-3">
                 <a
                     href={windowWidth > 575 ? img_3_15 : img_3_15x400}
                     data-fancybox="tab12"
@@ -239,7 +239,7 @@ const Tab12 = () => {
                 </a>
             </div>
 
-            <div className="col-span">
+            <div className="col-span-3">
                 <a
                     href={windowWidth > 575 ? img_4_15 : img_4_15x200}
                     data-fancybox="tab15"
