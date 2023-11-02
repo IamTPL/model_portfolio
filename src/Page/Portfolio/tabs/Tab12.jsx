@@ -157,7 +157,7 @@ const Tab12 = () => {
                 </a>
             </div>
 
-            <div className="col-span-3 grid grid-cols-2">
+            <div className="col-span-3 xs:col-span-2 grid grid-cols-2">
                 <div className="">
                     <a
                         href={windowWidth > 575 ? img_1_15 : img_1_15x600}
@@ -203,7 +203,7 @@ const Tab12 = () => {
                 </div>
             </div>
 
-            <div className="w-fit mx-auto col-span-3">
+            <div className="w-fit mx-auto col-span-3 xs:col-span-2">
                 <a
                     href={windowWidth > 575 ? img_5_15 : img_5_15x600}
                     data-fancybox="tab12"
@@ -219,7 +219,7 @@ const Tab12 = () => {
                 </a>
             </div>
 
-            <div className="col-span-3">
+            <div className="col-span-2">
                 <a
                     href={windowWidth > 575 ? img_3_15 : img_3_15x400}
                     data-fancybox="tab12"
@@ -239,7 +239,7 @@ const Tab12 = () => {
                 </a>
             </div>
 
-            <div className="col-span-3">
+            <div className="xs:col-span-2">
                 <a
                     href={windowWidth > 575 ? img_4_15 : img_4_15x200}
                     data-fancybox="tab15"
