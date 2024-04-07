@@ -104,15 +104,14 @@ const About = () => {
                     </div>
                     <div className="relative">
                         <p className="intro lg:text-sm xs:text-xs mt-5 pl-5 text-[#524a4f] leading-[22px] text-justify">
-                            I'm a Freelance Model, I was born in Da Nang,
-                            Vietnam on February 4th, 2001. Welcome to my
-                            modeling portfolio ! I started modeling in October
-                            2019 and immediately fell in love with meeting
-                            talented creatives and helping to bring their ideas
-                            to life. I am currently located in Ho Chi Minh City,
-                            but am available to travel to other destinations in
-                            the Vietnam and internationally. I have experience
-                            in editorial, content creation and modeling live
+                            I'm a Freelance Model. Welcome to my modeling
+                            portfolio ! I started modeling in October 2019 and
+                            immediately fell in love with meeting talented
+                            creatives and helping to bring their ideas to life.
+                            I am currently located in Ho Chi Minh City, but am
+                            available to travel to other destinations in the
+                            Vietnam and internationally. I have experience in
+                            editorial, content creation and modeling live
                             streams for various shops
                         </p>
                     </div>

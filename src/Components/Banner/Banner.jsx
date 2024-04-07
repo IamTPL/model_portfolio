@@ -17,7 +17,9 @@ const Banner = () => {
                 <div className="relative flex-1 pr-5 md:pr-0 flex flex-col items-center">
                     <div className="absolute left-10 top-10 w-20 h-20 bg-[#cb997e79]"></div>
                     <div className="absolute right-10 bottom-28 w-20 h-20 bg-[#cb997e79] rotate-45"></div>
-                    <h2 className="title mb-4 text-[55px]">Yuri</h2>
+                    <h2 className="title mb-4 mt-5 xs:mb-2 xs:text-[25px] text-[55px] z-50">
+                        Thanh Thảo
+                    </h2>
                     <p className="subTitle mb-10 text-xl font-medium">Model</p>
                     <div>
                         <div className="relative mb-10">
