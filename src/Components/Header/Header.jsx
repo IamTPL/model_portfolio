@@ -45,7 +45,7 @@ const Header = () => {
                             window.scrollTo(0, 0);
                         }}
                     >
-                        Yuri
+                        Thao
                     </h1>
                 </HashLink>
 
