@@ -11,6 +11,13 @@ import Tab10 from './tabs/Tab10';
 import Tab11 from './tabs/Tab11';
 import Tab12 from './tabs/Tab12';
 import Tab13 from './tabs/Tab13';
+import Tab14 from './tabs/Tab14';
+import Tab15 from './tabs/Tab15';
+import Tab16 from './tabs/Tab16';
+import Tab17 from './tabs/Tab17';
+import Tab18 from './tabs/Tab18';
+import Tab19 from './tabs/Tab19';
+import Tab20 from './tabs/Tab20';
 
 const Portfolio = () => {
     const items = [
@@ -66,6 +73,41 @@ const Portfolio = () => {
             label: `10`,
             children: <Tab13></Tab13>,
         },
+        {
+            key: '11',
+            label: `11`,
+            children: <Tab14></Tab14>,
+        },
+        {
+            key: '12',
+            label: `12`,
+            children: <Tab15></Tab15>,
+        },
+        {
+            key: '13',
+            label: `13`,
+            children: <Tab16></Tab16>,
+        },
+        {
+            key: '14',
+            label: `14`,
+            children: <Tab17></Tab17>,
+        },
+        {
+            key: '15',
+            label: `15`,
+            children: <Tab18></Tab18>,
+        },
+        {
+            key: '16',
+            label: `16`,
+            children: <Tab19></Tab19>,
+        },
+        {
+            key: '17',
+            label: `17`,
+            children: <Tab20></Tab20>,
+        },
     ];
 
     return (
@@ -79,7 +121,7 @@ const Portfolio = () => {
                 </h1>
             </div>
             <div className="mt-5 text-center mx-auto lg:px-10 sm:px-4 xs:px-2">
-                <Tabs defaultActiveKey="10" items={items} />
+                <Tabs defaultActiveKey="17" items={items} />
             </div>
         </div>
     );

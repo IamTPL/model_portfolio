@@ -35,7 +35,7 @@ const Header = () => {
         <div
             className={`header fixed ${
                 isHeaderVisible ? 'top-0' : 'top-[-80px]'
-            } left-0 right-0 bg-[#efefef] duration-300 z-50`}
+            } left-0 right-0 bg-[#dfdfdf] duration-300 z-50`}
         >
             <div className="px-[50px] h-20 xs:h-16 flex justify-between items-center">
                 <HashLink to="/" className="xs:flex-1">
