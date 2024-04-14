@@ -49,7 +49,7 @@ const Tab20 = () => {
                 </div>
             </a>
 
-            <a href={img_5} data-fancybox="tab20" className="sm:col-span-2">
+            <a href={img_5} data-fancybox="tab20" className="">
                 <div
                     className="relative img_block"
                     onClick={() => {
