@@ -16,8 +16,6 @@ import Tab15 from './tabs/Tab15';
 import Tab16 from './tabs/Tab16';
 import Tab17 from './tabs/Tab17';
 import Tab18 from './tabs/Tab18';
-import Tab19 from './tabs/Tab19';
-import Tab20 from './tabs/Tab20';
 
 const Portfolio = () => {
     const items = [
